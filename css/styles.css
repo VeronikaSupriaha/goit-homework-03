@@ -181,7 +181,7 @@ padding: 188px 0;
 }
 
 .advantage-list {
-    flex-basis: calc (( 100% - 72px ) / 4);
+    flex-basis: calc(( 100% - 72px ) / 4);
 }
 
 .advantage-item {
