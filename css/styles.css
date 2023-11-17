@@ -252,7 +252,7 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    flex-basis: calc((100%-24*2)/3);
+    width: calc((100%-48)/3);
 }
 
 .portfolio-item {
