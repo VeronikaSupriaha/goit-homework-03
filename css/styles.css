@@ -67,7 +67,10 @@ p {
 
 .navigation-menu {
     display: flex;
-    gap: 24px;
+}
+
+.nav-menu-item{
+    margin-right: 40px;
 }
 
 .nav-menu-item:last-child {
