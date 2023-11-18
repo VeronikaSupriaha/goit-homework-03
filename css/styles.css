@@ -119,6 +119,10 @@ p {
     column-gap: 40px;
 }
 
+.contacts-item {
+    margin-right: 40px;
+}
+
 .contacts-item:last-child {
     margin-right: 0px;
 }
@@ -215,6 +219,10 @@ padding: 188px 0;
     flex-basis: calc((100% - 72px) / 4);
 }
 
+.advantage-item {
+    margin-right: 40px;
+}
+
 .advantage-item:last-child {
     margin-right: 0;
 }
@@ -248,6 +256,7 @@ letter-spacing: 0.02em;
 }
 
 .team-item {
+    margin-right: 40px;
     background-color: #FFF;
     border-radius: 0px 0px 4px 4px;
     border-radius: 0px 0px 4px 4px;
