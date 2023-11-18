@@ -51,10 +51,13 @@ p {
 
 /*Page header*/
 
+.top-header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
 .header-class {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC)
 }
 
 .page-navigation {
@@ -65,7 +68,10 @@ p {
 .navigation-menu {
     display: flex;
     column-gap: 40px;
-    margin-left: 76px;
+}
+
+.nav-menu-item:last-child {
+    margin-right: 0px;
 }
 
 .logo {
@@ -76,6 +82,7 @@ p {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;  
+    margin-right: 76px;
 }
 
 .logo-studio {
@@ -109,14 +116,19 @@ p {
     column-gap: 40px;
 }
 
-.contacts-item {
+.contacts-item:last-child {
+    margin-right: 0px;
+}
+
+
+.contacts-link {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
- .contacts-item:hover,
- .contacts-item:focus {
+ .contacts-link:hover,
+ .contacts-link:focus {
     color:  #404BBF;
  }
 
@@ -135,10 +147,11 @@ padding: 188px 0;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
+    
 }
 
 .btn-order {
@@ -149,7 +162,7 @@ padding: 188px 0;
     letter-spacing: 0.04em;
     line-height: 1.5;
     background-color: #4D5AE5;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     margin: 0 auto;
     border: none;
@@ -164,9 +177,22 @@ padding: 188px 0;
 
 /*Our advantage*/
 
+.advantage-sct {
+    padding: 120px 0;
+}
+
 .main-style-list {
     display: flex;
     column-gap: 24px;
+}
+
+.item-title {
+    margin-bottom: 8px;
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .visually-hidden {
@@ -182,19 +208,13 @@ padding: 188px 0;
     overflow: hidden;
 }
 
-.advantage-list {
-    flex-basis: calc(( 100% - 72px ) / 4);
-}
-
 .advantage-item {
-color: #2E2F42;
-text-align: center;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
+.advantage-item:last-child {
+    margin-right: 0;
+}
 .description {
 font-size: 16px;
 line-height: 1.5;
@@ -217,7 +237,7 @@ letter-spacing: 0.02em;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team {
@@ -230,6 +250,10 @@ letter-spacing: 0.02em;
     border-radius: 0px 0px 4px 4px;
     border: none;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-item:last-child {
+    margin-right: 0;
 }
 
 img {
@@ -287,6 +311,7 @@ img {
 
 .logo-container {
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .description-ftr {
