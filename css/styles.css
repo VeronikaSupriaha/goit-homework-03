@@ -219,9 +219,6 @@ padding: 188px 0;
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.advantage-item {
-    margin-right: 24px;
-}
 
 .advantage-item:last-child {
     margin-right: 0;
@@ -253,7 +250,6 @@ letter-spacing: 0.02em;
 
 .team-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
-    margin-right: 24px;
     background-color: #FFF;
     border-radius: 0px 0px 4px 4px;
     border-radius: 0px 0px 4px 4px;
