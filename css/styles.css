@@ -220,7 +220,7 @@ padding: 188px 0;
 }
 
 .advantage-item {
-    margin-right: 40px;
+    margin-right: 24px;
 }
 
 .advantage-item:last-child {
@@ -236,7 +236,7 @@ letter-spacing: 0.02em;
 
 /*Our team*/
 
-.team-list {
+.team-item {
     flex-basis: calc((100% - 72px ) / 4);
 }
 
@@ -256,7 +256,7 @@ letter-spacing: 0.02em;
 }
 
 .team-item {
-    margin-right: 40px;
+    margin-right: 24px;
     background-color: #FFF;
     border-radius: 0px 0px 4px 4px;
     border-radius: 0px 0px 4px 4px;
@@ -333,8 +333,4 @@ img {
     width: 264px;
 }
 
-.end-container {
-    display: flex;
-    flex-direction: column;
-  
-}
+
