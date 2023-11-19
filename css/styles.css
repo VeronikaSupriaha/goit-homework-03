@@ -190,7 +190,8 @@ padding: 188px 0;
 
 .main-style-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
+
 }
 
 .item-title {
